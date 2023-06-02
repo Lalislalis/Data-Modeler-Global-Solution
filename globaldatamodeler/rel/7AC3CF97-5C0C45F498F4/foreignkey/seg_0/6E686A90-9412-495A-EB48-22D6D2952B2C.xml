@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6E686A90-9412-495A-EB48-22D6D2952B2C" containerWithKeyObject="FC6F3311-AA86-EA77-4805-BECA805C8FD8" localFKIndex="727D6D6D-E24B-3937-3038-BAB759B20BEC" name="TB_HECTARE_TB_AGRICULTOR_FK">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 02:04:03 UTC</createdTime>
+<generatorID>C0E612C2-1151-9DD4-FF33-4285EFB0DCAF</generatorID>
+<ownerDesignName>globaldatamodeler</ownerDesignName>
+<referredTableLongName>TB_AGRICULTOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>35339C95-FDDA-54DD-9A9C-55CE939EB58B</referredTableID>
+<keyObject>C541DB14-4159-1DE5-789F-C1CFC571F4F4</keyObject>
+<referredKeyID>C541DB14-4159-1DE5-789F-C1CFC571F4F4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_AGRICULTOR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

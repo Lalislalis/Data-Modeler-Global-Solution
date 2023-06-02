@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D470EE91-6C59-C098-B65E-DF4BF5902D70" name="TB_PREP_SOLO">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 01:44:34 UTC</createdTime>
+<ownerDesignName>globaldatamodeler</ownerDesignName>
+<engineerTo>
+<item key="7AC3CF97-A9AF-C71B-8CC8-5C0C45F498F4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TP_PREP_SOLO" id="0DF98067-C0E3-A7B4-9548-2B4AD96FFA7D">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 01:46:21 UTC</createdTime>
+<ownerDesignName>globaldatamodeler</ownerDesignName>
+<engineerTo>
+<item key="7AC3CF97-A9AF-C71B-8CC8-5C0C45F498F4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MATERIAIS_USADOS" id="B23F8603-BF46-ED26-1B48-CC6884D55FFB">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 01:46:48 UTC</createdTime>
+<ownerDesignName>globaldatamodeler</ownerDesignName>
+<engineerTo>
+<item key="7AC3CF97-A9AF-C71B-8CC8-5C0C45F498F4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C36D4511-EBA4-65BC-3046-C7E38BD8768F" name="TB_PREP_SOLO PK">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 01:46:47 UTC</createdTime>
+<ownerDesignName>globaldatamodeler</ownerDesignName>
+<engineerTo>
+<item key="7AC3CF97-A9AF-C71B-8CC8-5C0C45F498F4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0DF98067-C0E3-A7B4-9548-2B4AD96FFA7D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

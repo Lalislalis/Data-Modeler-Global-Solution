@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B56F02A1-B0F9-3BF6-C58B-C3B804F74D09" name="Relation_32">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 02:04:03 UTC</createdTime>
+<ownerDesignName>globaldatamodeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TB_IRRIGAÇÃO_TP_IRRIGAÇÃO" id="17F8907F-E38D-349A-E1DB-B7A130EBADED">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 02:04:03 UTC</createdTime>
+<ownerDesignName>globaldatamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A5596B6-53D9-EF95-9DF7-5B5DCEF110FB" referredColumn="8CEED61B-AC4F-30BD-B621-7D66E12E2D3D"/>
+</associations>
+</Column>
+<Column name="TB_AREA_PLANTIO_HECTARE_ID_PLANTIO" id="05D59399-BC61-E68F-7D50-33DDF7125D49">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 02:04:03 UTC</createdTime>
+<ownerDesignName>globaldatamodeler</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72954B41-C3E9-1AB7-561D-94ED9190B235" referredColumn="543B37A8-A51D-6660-5D94-4B964B82AB09"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0BA012CB-6447-0831-9511-1FDDE7961FB9" name="Relation_32_PK">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 02:04:03 UTC</createdTime>
+<ownerDesignName>globaldatamodeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17F8907F-E38D-349A-E1DB-B7A130EBADED"/>
+<colUsage columnID="05D59399-BC61-E68F-7D50-33DDF7125D49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D114DEC3-A2EB-79F0-EFD4-3D62D3D34FD5" name="Relation_32_TB_IRRIGAÇÃO_FK">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 02:04:03 UTC</createdTime>
+<generatorID>669FE13A-89F3-CE6F-1B37-97EB142801A3</generatorID>
+<ownerDesignName>globaldatamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17F8907F-E38D-349A-E1DB-B7A130EBADED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79535644-3DFD-F57A-E68C-8427E83F212D" name="Relation_32_TB_AREA_PLANTIO_HECTARE_FK">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 02:04:03 UTC</createdTime>
+<generatorID>669FE13A-89F3-CE6F-1B37-97EB142801A3</generatorID>
+<ownerDesignName>globaldatamodeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05D59399-BC61-E68F-7D50-33DDF7125D49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

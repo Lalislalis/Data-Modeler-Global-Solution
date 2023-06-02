@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5F73C6C5-5433-1948-5D65-76EA31EE10BC" containerWithKeyObject="5FDC2F75-1D1B-82E5-88CF-15FDD202BA81" localFKIndex="6D0FDCED-C9ED-422F-62CD-60EF832C9D10" name="TB_INFO_PLANTIO_TB_SEMENTE_FK">
+<createdBy>laism</createdBy>
+<createdTime>2023-05-29 01:16:39 UTC</createdTime>
+<generatorID>55EBE550-33C1-DAD7-7476-1EABEEF641A2</generatorID>
+<ownerDesignName>globaldatamodeler</ownerDesignName>
+<referredTableLongName>TB_SEMENTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>802B8527-7941-BB6F-3B9D-917FEEEE6494</referredTableID>
+<keyObject>E2058A04-F047-AC2C-5B69-03C21FF1A1C4</keyObject>
+<referredKeyID>E2058A04-F047-AC2C-5B69-03C21FF1A1C4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TP_SEMENTE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

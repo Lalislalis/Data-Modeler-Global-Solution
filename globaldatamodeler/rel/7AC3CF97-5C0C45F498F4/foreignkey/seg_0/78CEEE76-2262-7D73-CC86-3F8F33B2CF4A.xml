@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="78CEEE76-2262-7D73-CC86-3F8F33B2CF4A" containerWithKeyObject="D79FAFE6-D47B-7376-E4BB-2C3A2EDA27D3" localFKIndex="FD2CF5A9-D302-F8F3-5049-EB1BF0B1AB4E" name="TB_ADUBAÇÃO_TB_INFO_PLANTIO_FK">
+<createdBy>laism</createdBy>
+<createdTime>2023-05-29 01:16:39 UTC</createdTime>
+<generatorID>95C19270-C009-5F52-82B0-87A64719671D</generatorID>
+<ownerDesignName>globaldatamodeler</ownerDesignName>
+<referredTableLongName>TB_INFO_PLANTIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5FDC2F75-1D1B-82E5-88CF-15FDD202BA81</referredTableID>
+<keyObject>393D25F3-66C4-1DCB-5B7D-40FD5E066BD5</keyObject>
+<referredKeyID>393D25F3-66C4-1DCB-5B7D-40FD5E066BD5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NM_PLANTIL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

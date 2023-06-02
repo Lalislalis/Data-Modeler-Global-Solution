@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0425E4A4-7C33-581A-2C44-E0260E741C3E" name="TB_COLHEITA_PLANTIO">
+<createdBy>laism</createdBy>
+<createdTime>2023-05-28 22:31:22 UTC</createdTime>
+<ownerDesignName>globaldatamodeler</ownerDesignName>
+<engineerTo>
+<item key="7AC3CF97-A9AF-C71B-8CC8-5C0C45F498F4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="TOTAL_AREA_COL" id="91C20D79-5AD9-1EA4-F2F1-CF8B72EC21C2">
+<createdBy>laism</createdBy>
+<createdTime>2023-05-28 22:33:26 UTC</createdTime>
+<ownerDesignName>globaldatamodeler</ownerDesignName>
+<engineerTo>
+<item key="7AC3CF97-A9AF-C71B-8CC8-5C0C45F498F4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PLANTIO" id="6D59B714-188A-09F1-FB89-F726DAD8A312">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 01:57:01 UTC</createdTime>
+<generatorID>BDF21F39-2E02-A4D6-6CE4-078582053F46</generatorID>
+<ownerDesignName>globaldatamodeler</ownerDesignName>
+<engineerTo>
+<item key="7AC3CF97-A9AF-C71B-8CC8-5C0C45F498F4" value="true"/>
+</engineerTo>
+<referedAttribute>2C9EC5EC-2F36-CD48-792D-BC49311B6669</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIF_AREA_COLHIDA_PLANTADA" id="87FC3E2A-95C9-946A-D39E-F29823302C61">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 02:06:35 UTC</createdTime>
+<generatorID>826FEF24-4035-B7FC-BF5A-FEFBCB9EDACB</generatorID>
+<ownerDesignName>globaldatamodeler</ownerDesignName>
+<engineerTo>
+<item key="7AC3CF97-A9AF-C71B-8CC8-5C0C45F498F4" value="true"/>
+</engineerTo>
+<referedAttribute>71025C64-BF96-F0E2-120F-C9CDD39F3839</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FFCF14AD-A207-3656-716A-0D28FD10FF62" name="TB_AREA_COLHIDA PK">
+<createdBy>laism</createdBy>
+<createdTime>2023-05-28 22:33:26 UTC</createdTime>
+<ownerDesignName>globaldatamodeler</ownerDesignName>
+<engineerTo>
+<item key="7AC3CF97-A9AF-C71B-8CC8-5C0C45F498F4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>91C20D79-5AD9-1EA4-F2F1-CF8B72EC21C2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

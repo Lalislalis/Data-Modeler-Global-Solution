@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8A5596B6-53D9-EF95-9DF7-5B5DCEF110FB" containerWithKeyObject="B56F02A1-B0F9-3BF6-C58B-C3B804F74D09" localFKIndex="D114DEC3-A2EB-79F0-EFD4-3D62D3D34FD5" name="Relation_32_TB_IRRIGAÇÃO_FK">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 02:04:03 UTC</createdTime>
+<generatorID>669FE13A-89F3-CE6F-1B37-97EB142801A3</generatorID>
+<ownerDesignName>globaldatamodeler</ownerDesignName>
+<referredTableLongName>TB_IRRIGAÇÃO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FCCACBB6-D2C4-85ED-F02C-C1086FCE4434</referredTableID>
+<keyObject>65A624DE-E3B7-0939-B702-29A9BAAD499E</keyObject>
+<referredKeyID>65A624DE-E3B7-0939-B702-29A9BAAD499E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TP_IRRIGAÇÃO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

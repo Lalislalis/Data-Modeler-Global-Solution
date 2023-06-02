@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="globaldatamodeler" id="55D6F29D-B7CA-A8AB-837A-4F73B78FF6AC" version="3.5">
+<createdBy>laism</createdBy>
+<createdTime>2023-05-28 18:42:49 UTC</createdTime>
+<ownerDesignName>data_modeler_global</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>55D6F29D-B7CA-A8AB-837A-4F73B78FF6AC</designId>
+</OSDM_Design>

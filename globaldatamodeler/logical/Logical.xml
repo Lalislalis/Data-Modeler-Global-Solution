@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="C0F72876-09A1-1E6C-A0F8-14EE6F32D163" mainViewID="B6314EAB-653E-DD16-8937-088BF2DF817B">
+<createdBy>laism</createdBy>
+<createdTime>2023-05-28 18:42:49 UTC</createdTime>
+<ownerDesignName>data_modeler_global</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

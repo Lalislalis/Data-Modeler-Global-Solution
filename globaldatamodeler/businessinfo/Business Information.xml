@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="38DDCD4E-B26E-2E7C-B090-DEA3F3880317">
+<createdBy>laism</createdBy>
+<createdTime>2023-05-28 18:42:49 UTC</createdTime>
+<ownerDesignName>data_modeler_global</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

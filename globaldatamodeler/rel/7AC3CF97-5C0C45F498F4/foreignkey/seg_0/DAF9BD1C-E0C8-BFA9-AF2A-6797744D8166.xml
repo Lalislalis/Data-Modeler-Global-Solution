@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DAF9BD1C-E0C8-BFA9-AF2A-6797744D8166" containerWithKeyObject="E57807A2-287F-CACC-FFDC-68C15959E806" localFKIndex="9E78F2BF-3E5E-7615-15B3-037F604422F9" name="TB_REGIAO_TB_CLIMA_FK">
+<createdBy>laism</createdBy>
+<createdTime>2023-05-29 01:16:39 UTC</createdTime>
+<generatorID>7721E4E2-6488-9593-3202-5D697F0D524D</generatorID>
+<ownerDesignName>globaldatamodeler</ownerDesignName>
+<referredTableLongName>TB_CLIMA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EAB3C1D9-80A7-39CD-EDB4-276F9F05D1E2</referredTableID>
+<keyObject>015B90B0-3F6E-2512-5634-036E9B9F6C3E</keyObject>
+<referredKeyID>015B90B0-3F6E-2512-5634-036E9B9F6C3E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TP_CLIMA,TB_ESTACOES_ID_ESTAÇÃO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

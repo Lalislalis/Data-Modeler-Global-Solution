@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="83056690-F8A0-6FA5-155F-1698C03CAE72">
+<createdBy>laism</createdBy>
+<createdTime>2023-05-28 18:42:49 UTC</createdTime>
+<ownerDesignName>data_modeler_global</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>
