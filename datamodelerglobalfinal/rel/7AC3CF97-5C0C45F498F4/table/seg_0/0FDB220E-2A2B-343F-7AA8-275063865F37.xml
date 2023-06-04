@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0FDB220E-2A2B-343F-7AA8-275063865F37" name="TB_PREP_SOLO">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 02:04:03 UTC</createdTime>
+<generatorID>D470EE91-6C59-C098-B65E-DF4BF5902D70</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TP_PREP_SOLO" id="1A2BE7BB-A14C-CECD-AE6C-0AA5621F3A09">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 02:04:03 UTC</createdTime>
+<generatorID>0DF98067-C0E3-A7B4-9548-2B4AD96FFA7D</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MATERIAIS_USADOS" id="48532B4A-6FD3-4A46-73A0-EF61171434C0">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 02:04:03 UTC</createdTime>
+<generatorID>B23F8603-BF46-ED26-1B48-CC6884D55FFB</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AC5A40D2-0577-55A4-55A7-2705B6FEC5D1" name="TB_PREP_SOLO_PK">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 02:04:03 UTC</createdTime>
+<generatorID>C36D4511-EBA4-65BC-3046-C7E38BD8768F</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A2BE7BB-A14C-CECD-AE6C-0AA5621F3A09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

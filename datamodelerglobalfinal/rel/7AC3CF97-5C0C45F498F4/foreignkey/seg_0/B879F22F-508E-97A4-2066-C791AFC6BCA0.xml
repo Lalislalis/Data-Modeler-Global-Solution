@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B879F22F-508E-97A4-2066-C791AFC6BCA0" containerWithKeyObject="5FDC2F75-1D1B-82E5-88CF-15FDD202BA81" localFKIndex="A9BD5B23-367C-7EB2-5F6A-95B523FF607C" name="TB_INFO_PLANTIO_TB_SOLO_FK">
+<createdBy>laism</createdBy>
+<createdTime>2023-05-29 01:16:39 UTC</createdTime>
+<generatorID>FDD7EBA5-BB03-C44B-7346-C21ADF283477</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<referredTableLongName>TB_SOLO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C06F8AD0-E8A8-92A8-071E-57C776682483</referredTableID>
+<keyObject>1C1E67A7-F5B0-783C-86C1-71E2B63FEF5B</keyObject>
+<referredKeyID>1C1E67A7-F5B0-783C-86C1-71E2B63FEF5B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TP_SOLO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

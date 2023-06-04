@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E5AD62FF-CCDC-1A04-1821-3D36A93AE877" name="T_JOANAS_DIFERENÇA_PLANTADA_COLHIDA">
+<createdBy>laism</createdBy>
+<createdTime>2023-05-28 22:36:10 UTC</createdTime>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<engineerTo>
+<item key="7AC3CF97-A9AF-C71B-8CC8-5C0C45F498F4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DIF_AREA_COLHIDA_PLANTADA" id="71025C64-BF96-F0E2-120F-C9CDD39F3839">
+<createdBy>laism</createdBy>
+<createdTime>2023-05-29 00:30:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[Compara a diferença da area plantada para a area colhida para ter um parametro do quanto da cultura foi perdida]]></commentInRDBMS>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<engineerTo>
+<item key="7AC3CF97-A9AF-C71B-8CC8-5C0C45F498F4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PLANTIO" id="186FFAF2-5168-0ADC-C02A-32AABC8A32FE">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 02:07:54 UTC</createdTime>
+<generatorID>8A6A52AE-7EEB-012A-6ECB-C9092769F8AB</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<engineerTo>
+<item key="7AC3CF97-A9AF-C71B-8CC8-5C0C45F498F4" value="true"/>
+</engineerTo>
+<referedAttribute>2C9EC5EC-2F36-CD48-792D-BC49311B6669</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TOTAL_AREA_COL" id="B41A2BBB-928E-91DF-F5A8-8BCA1A1AD8FA">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-04 00:48:51 UTC</createdTime>
+<generatorID>4D6CA3D3-230C-911A-2805-B4B13EA5BFA3</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<engineerTo>
+<item key="7AC3CF97-A9AF-C71B-8CC8-5C0C45F498F4" value="true"/>
+</engineerTo>
+<referedAttribute>91C20D79-5AD9-1EA4-F2F1-CF8B72EC21C2</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C95F55AB-E240-24FC-7BDF-C7D9EC580C8A" name="TB_DIFERENÇA_PLANTADA_COLHIDA PK">
+<createdBy>laism</createdBy>
+<createdTime>2023-05-29 00:30:37 UTC</createdTime>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7AC3CF97-A9AF-C71B-8CC8-5C0C45F498F4" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>71025C64-BF96-F0E2-120F-C9CDD39F3839</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

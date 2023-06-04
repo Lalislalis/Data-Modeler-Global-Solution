@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="115B3C93-B19B-58BC-5905-4691AFB64EB5" name="T_JOANAS_HECTARE">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-01 22:40:08 UTC</createdTime>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<engineerTo>
+<item key="7AC3CF97-A9AF-C71B-8CC8-5C0C45F498F4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_HECTARE" id="90CB69BC-CB4D-6770-8626-325AE8130ECC">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-01 22:42:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identifica o hectare]]></commentInRDBMS>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<engineerTo>
+<item key="7AC3CF97-A9AF-C71B-8CC8-5C0C45F498F4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_AGRICULTOR" id="CB990677-A823-DFF7-8386-7527E39EA05B">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-01 23:01:59 UTC</createdTime>
+<generatorID>C0E612C2-1151-9DD4-FF33-4285EFB0DCAF</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<engineerTo>
+<item key="7AC3CF97-A9AF-C71B-8CC8-5C0C45F498F4" value="true"/>
+</engineerTo>
+<referedAttribute>ACD770EB-3229-CDA2-E448-63279289C5DF</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TP_SOLO1" id="D75A8710-5CDB-F2E8-9F32-E018C010448E">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-01 23:02:26 UTC</createdTime>
+<generatorID>C0C4183E-6965-82D9-CC0E-0D8CFDB68F82</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<engineerTo>
+<item key="7AC3CF97-A9AF-C71B-8CC8-5C0C45F498F4" value="true"/>
+</engineerTo>
+<referedAttribute>85440CC4-AADD-2C76-4971-A32C6115FA92</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_REGIÃO" id="4D5EBE8D-3CAB-35CE-714D-677A8BA56B8A">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-01 23:02:40 UTC</createdTime>
+<generatorID>1B97E237-DB15-1202-BE6E-0EC7CCBAE01E</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<engineerTo>
+<item key="7AC3CF97-A9AF-C71B-8CC8-5C0C45F498F4" value="true"/>
+</engineerTo>
+<referedAttribute>B9F02A0A-250F-EE8C-302B-66C11C0AFB02</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TP_CLIMA" id="DA8D8CE0-56A3-46DB-4F37-63D4616D71DF">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-04 00:37:53 UTC</createdTime>
+<generatorID>0DE78EBF-9169-67A0-2563-D5D53B8013C9</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<engineerTo>
+<item key="7AC3CF97-A9AF-C71B-8CC8-5C0C45F498F4" value="true"/>
+</engineerTo>
+<referedAttribute>6C9F5171-BAA7-B4DB-82A2-BB305209CF67</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ESTAÇÃO" id="CD51F5D7-8E93-3F72-CD90-1B762ABD7B6A">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-04 00:37:53 UTC</createdTime>
+<generatorID>0DE78EBF-9169-67A0-2563-D5D53B8013C9</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<engineerTo>
+<item key="7AC3CF97-A9AF-C71B-8CC8-5C0C45F498F4" value="true"/>
+</engineerTo>
+<referedAttribute>A5FDEDD8-1C91-C7FA-4C1E-5D73405DD301</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F5DDB462-2D48-9BC0-1DBF-691A89DA8438" name="TB_HECTARE PK">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-01 22:42:37 UTC</createdTime>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<engineerTo>
+<item key="7AC3CF97-A9AF-C71B-8CC8-5C0C45F498F4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>90CB69BC-CB4D-6770-8626-325AE8130ECC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

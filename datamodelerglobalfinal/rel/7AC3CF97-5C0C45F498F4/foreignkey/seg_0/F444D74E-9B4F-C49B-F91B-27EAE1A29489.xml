@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F444D74E-9B4F-C49B-F91B-27EAE1A29489" containerWithKeyObject="E38EF837-F1E8-BE2A-DA79-4D763676858C" localFKIndex="28C15F80-6D35-727B-BB87-7EBBDFD668DD" name="TB_AREA_PLANTIO_HECTARE_TB_PREP_SOLO_FK">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 02:04:03 UTC</createdTime>
+<generatorID>DD34813B-12C9-EDCC-D9B1-833BEEE96A00</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<referredTableLongName>TB_PREP_SOLO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0FDB220E-2A2B-343F-7AA8-275063865F37</referredTableID>
+<keyObject>AC5A40D2-0577-55A4-55A7-2705B6FEC5D1</keyObject>
+<referredKeyID>AC5A40D2-0577-55A4-55A7-2705B6FEC5D1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TP_PREP_SOLO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

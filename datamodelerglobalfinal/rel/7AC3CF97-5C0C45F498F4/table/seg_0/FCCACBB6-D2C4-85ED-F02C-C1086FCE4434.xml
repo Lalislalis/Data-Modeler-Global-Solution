@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FCCACBB6-D2C4-85ED-F02C-C1086FCE4434" name="TB_IRRIGAÇÃO">
+<createdBy>laism</createdBy>
+<createdTime>2023-05-29 01:16:39 UTC</createdTime>
+<generatorID>A6EFAA86-C61F-E47E-E2FF-9FFEFDBC894C</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TP_IRRIGAÇÃO" id="8CEED61B-AC4F-30BD-B621-7D66E12E2D3D">
+<createdBy>laism</createdBy>
+<createdTime>2023-05-29 01:16:39 UTC</createdTime>
+<generatorID>7848841B-0BEF-E5A7-2374-1721BE529498</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATAS_IRRIGAÇÃO" id="FA8D6E04-8F5E-77D9-2648-25D33D1E9306">
+<createdBy>laism</createdBy>
+<createdTime>2023-05-29 01:16:39 UTC</createdTime>
+<generatorID>43AE580A-5210-76CB-56B7-99399F88AE69</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_INFO_PLANTIO_NM_PLANTIL" id="8FA75A13-F27A-1599-BD3C-ABA4E5FBE7E6">
+<createdBy>laism</createdBy>
+<createdTime>2023-05-29 01:16:39 UTC</createdTime>
+<generatorID>BF557C56-8BD1-BE1F-C225-B4746E30CE29</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61EAF117-A7BF-E251-63AE-AE4180123170" referredColumn="9E41A8AA-FF75-4D77-4C26-F07D78BDB345"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="65A624DE-E3B7-0939-B702-29A9BAAD499E" name="TB_IRRIGAÇÃO_PK">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 02:04:03 UTC</createdTime>
+<generatorID>EB5FFE01-EBD7-8191-AD8A-59D77E00AA7C</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CEED61B-AC4F-30BD-B621-7D66E12E2D3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8BFB3721-F30E-B935-C671-5CF3EF573B64" name="TB_IRRIGAÇÃO__IDX">
+<createdBy>laism</createdBy>
+<createdTime>2023-05-29 01:16:39 UTC</createdTime>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>80B19F07-94F6-D79E-EE6E-0EE98EE5B8C6</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="8FA75A13-F27A-1599-BD3C-ABA4E5FBE7E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA06EBF3-C4DB-C59B-E333-A5F1ADCFBE40" name="TB_IRRIGAÇÃO_TB_INFO_PLANTIO_FK">
+<createdBy>laism</createdBy>
+<createdTime>2023-05-29 01:16:39 UTC</createdTime>
+<generatorID>80B19F07-94F6-D79E-EE6E-0EE98EE5B8C6</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FA75A13-F27A-1599-BD3C-ABA4E5FBE7E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6ACF11E-148B-6029-2709-8E5067EED19F" name="TB_MANEJO_DE_CULTURAS">
+<createdBy>laism</createdBy>
+<createdTime>2023-05-29 01:16:39 UTC</createdTime>
+<generatorID>189AB29E-6F73-99EB-FD0E-15C6B87BEE55</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TP_MANEJO" id="A8C205AC-85D5-B69D-6612-71555B3747D8">
+<createdBy>laism</createdBy>
+<createdTime>2023-05-29 01:16:39 UTC</createdTime>
+<generatorID>B10C1F4E-82C8-8AC3-CC91-DE6AFE85205A</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATAS_MANEJO" id="E339FDBC-52E7-DB23-2A20-BDD4F45D53EE">
+<createdBy>laism</createdBy>
+<createdTime>2023-05-29 01:16:39 UTC</createdTime>
+<generatorID>39986A83-7259-F18D-1917-AABDC000BD8B</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_INFO_PLANTIO_NM_PLANTIL" id="21B4436C-748C-24BE-1728-15E8938885C7">
+<createdBy>laism</createdBy>
+<createdTime>2023-05-29 01:16:39 UTC</createdTime>
+<generatorID>D97DEC17-B653-9746-1744-D255305978C0</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F87FB3D-BCC1-B0AF-13BE-4768C94A998A" referredColumn="9E41A8AA-FF75-4D77-4C26-F07D78BDB345"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="18FE55B0-A52C-C298-CECA-189B90D774E2" name="TB_MANEJO_DE_CULTURAS_PK">
+<createdBy>laism</createdBy>
+<createdTime>2023-05-29 01:16:39 UTC</createdTime>
+<generatorID>6A69CCCD-8AB6-3823-C4EA-8C769EC00DA7</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8C205AC-85D5-B69D-6612-71555B3747D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3881FA48-113E-217B-CDA6-9DCD8D646F78" name="TB_MANEJO_DE_CULTURAS__IDX">
+<createdBy>laism</createdBy>
+<createdTime>2023-05-29 01:16:39 UTC</createdTime>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>66FA5ACF-C50A-7A26-4D23-0B65846E8310</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="21B4436C-748C-24BE-1728-15E8938885C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A6594F4A-6A6E-9D16-488F-0C74B7FCB97D" name="TB_MANEJO_DE_CULTURAS_TB_INFO_PLANTIO_FK">
+<createdBy>laism</createdBy>
+<createdTime>2023-05-29 01:16:39 UTC</createdTime>
+<generatorID>66FA5ACF-C50A-7A26-4D23-0B65846E8310</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21B4436C-748C-24BE-1728-15E8938885C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

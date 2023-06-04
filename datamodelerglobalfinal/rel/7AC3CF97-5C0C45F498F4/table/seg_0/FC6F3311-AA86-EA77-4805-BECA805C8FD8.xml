@@ -1,0 +1,199 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC6F3311-AA86-EA77-4805-BECA805C8FD8" name="TB_HECTARE">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 02:04:03 UTC</createdTime>
+<generatorID>115B3C93-B19B-58BC-5905-4691AFB64EB5</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_HECTARE" id="0B79E4AE-B2D8-4845-0E7D-F14B87FC3F50">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 02:04:03 UTC</createdTime>
+<generatorID>90CB69BC-CB4D-6770-8626-325AE8130ECC</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TP_SOLO" id="0300482A-92D0-4A66-537F-659CA983AFB3">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 02:04:03 UTC</createdTime>
+<generatorID>3B6B0478-5630-DDC5-9F31-E6977EBC9F6E</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGIAO" id="5208AA79-1081-3300-9F3A-4AA7A8219F4D">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 02:04:03 UTC</createdTime>
+<generatorID>87DFF98F-8D02-7AF1-B73C-8E2E96423F9C</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_AGRICULTOR_ID_AGRICULTOR" id="E023433B-6886-0E95-1005-C202FA8AA7C4">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 02:04:03 UTC</createdTime>
+<generatorID>CB990677-A823-DFF7-8386-7527E39EA05B</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E686A90-9412-495A-EB48-22D6D2952B2C" referredColumn="6ACC3804-880F-3F57-B2A3-044E66335047"/>
+</associations>
+</Column>
+<Column name="TB_SOLO_TP_SOLO" id="76353762-FF02-C869-0178-7437ABA58CA9">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 02:04:03 UTC</createdTime>
+<generatorID>D75A8710-5CDB-F2E8-9F32-E018C010448E</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="83436CF2-B74D-3F8B-A470-E4068C68A702" referredColumn="8DF3CE7B-F7D3-CF68-EF3B-7BB0C4AFD54F"/>
+</associations>
+</Column>
+<Column name="TB_REGIAO_NM_REGIÃO" id="93811ACF-5C57-1BEE-D525-609E816E4070">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 02:04:03 UTC</createdTime>
+<generatorID>4D5EBE8D-3CAB-35CE-714D-677A8BA56B8A</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="23EFC03A-5267-8DCB-FC91-ABD0CB84336B" referredColumn="24E12D98-C3A3-81C8-E404-5E2FE5013CE1"/>
+</associations>
+</Column>
+<Column name="TB_CLIMA_TP_CLIMA" id="D438304C-A065-0E5E-982E-C804D8D9B148">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 02:04:03 UTC</createdTime>
+<generatorID>9902AD00-BB3B-9C1F-DB71-F9C85FE82AA5</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="380C5A17-3DF7-8B6D-B898-76AF8AE9DF89" referredColumn="107A941C-3942-E591-CECF-67341C9F5EDB"/>
+</associations>
+</Column>
+<Column name="TB_CLIMA_ID_ESTAÇÃO" id="C77656E5-30FA-4F03-2B81-A54D5849CB85">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 02:04:03 UTC</createdTime>
+<generatorID>59056829-DBAA-A8AD-CBE3-AE380C321461</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="380C5A17-3DF7-8B6D-B898-76AF8AE9DF89" referredColumn="59C22D30-38F2-3B3C-D9B0-CAF3F0985082"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CF9BA83D-B423-B6FD-2D67-C9FC91A67495" name="TB_HECTARE_PK">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 02:04:03 UTC</createdTime>
+<generatorID>F5DDB462-2D48-9BC0-1DBF-691A89DA8438</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B79E4AE-B2D8-4845-0E7D-F14B87FC3F50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="392870C9-7EFA-3F2B-01CC-9987EF9D4467" name="TB_HECTARE__IDX">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 02:04:03 UTC</createdTime>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C0C4183E-6965-82D9-CC0E-0D8CFDB68F82</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="76353762-FF02-C869-0178-7437ABA58CA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="689230FD-2701-34F5-17B5-FBABE6DB42A1" name="TB_HECTARE__IDXv1">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 02:04:03 UTC</createdTime>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>1B97E237-DB15-1202-BE6E-0EC7CCBAE01E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="93811ACF-5C57-1BEE-D525-609E816E4070"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="558F2DA3-C195-6839-D77B-59E83CFBB078" name="TB_HECTARE__IDXv2">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 02:04:03 UTC</createdTime>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C92FEA7E-E475-BEC7-03D5-2723E173A5ED</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D438304C-A065-0E5E-982E-C804D8D9B148"/>
+<colUsage columnID="C77656E5-30FA-4F03-2B81-A54D5849CB85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="727D6D6D-E24B-3937-3038-BAB759B20BEC" name="TB_HECTARE_TB_AGRICULTOR_FK">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 02:04:03 UTC</createdTime>
+<generatorID>C0E612C2-1151-9DD4-FF33-4285EFB0DCAF</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E023433B-6886-0E95-1005-C202FA8AA7C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D5707B5-DA0D-30B1-B2CD-0E63FED0695A" name="TB_HECTARE_TB_SOLO_FK">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 02:04:03 UTC</createdTime>
+<generatorID>C0C4183E-6965-82D9-CC0E-0D8CFDB68F82</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76353762-FF02-C869-0178-7437ABA58CA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD8DC846-A9F1-B48A-EB2B-2C9CEBAA204F" name="TB_HECTARE_TB_REGIAO_FK">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 02:04:03 UTC</createdTime>
+<generatorID>1B97E237-DB15-1202-BE6E-0EC7CCBAE01E</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93811ACF-5C57-1BEE-D525-609E816E4070"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B9124D8-C553-A385-D60F-3A06A4C3EACC" name="TB_HECTARE_TB_CLIMA_FK">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 02:04:03 UTC</createdTime>
+<generatorID>C92FEA7E-E475-BEC7-03D5-2723E173A5ED</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D438304C-A065-0E5E-982E-C804D8D9B148"/>
+<colUsage columnID="C77656E5-30FA-4F03-2B81-A54D5849CB85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

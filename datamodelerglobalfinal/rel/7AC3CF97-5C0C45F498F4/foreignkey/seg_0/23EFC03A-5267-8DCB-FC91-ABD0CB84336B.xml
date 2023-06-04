@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="23EFC03A-5267-8DCB-FC91-ABD0CB84336B" containerWithKeyObject="FC6F3311-AA86-EA77-4805-BECA805C8FD8" localFKIndex="BD8DC846-A9F1-B48A-EB2B-2C9CEBAA204F" name="TB_HECTARE_TB_REGIAO_FK">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 02:04:03 UTC</createdTime>
+<generatorID>1B97E237-DB15-1202-BE6E-0EC7CCBAE01E</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<referredTableLongName>TB_REGIAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E57807A2-287F-CACC-FFDC-68C15959E806</referredTableID>
+<keyObject>DD297A7C-8C05-E00A-D61E-91181A58689D</keyObject>
+<referredKeyID>DD297A7C-8C05-E00A-D61E-91181A58689D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NM_REGIÃO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

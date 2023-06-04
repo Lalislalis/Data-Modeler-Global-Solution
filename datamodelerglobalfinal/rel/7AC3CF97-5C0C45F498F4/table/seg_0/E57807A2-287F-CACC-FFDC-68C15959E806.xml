@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E57807A2-287F-CACC-FFDC-68C15959E806" name="TB_REGIAO">
+<createdBy>laism</createdBy>
+<createdTime>2023-05-29 01:16:39 UTC</createdTime>
+<generatorID>8D318525-1E4C-F3EE-CFCF-09EFAD156941</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NM_REGIÃO" id="24E12D98-C3A3-81C8-E404-5E2FE5013CE1">
+<createdBy>laism</createdBy>
+<createdTime>2023-05-29 01:16:39 UTC</createdTime>
+<generatorID>B9F02A0A-250F-EE8C-302B-66C11C0AFB02</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIMA" id="FA2232E9-A583-E958-22E1-B0135AE2BDDC">
+<createdBy>laism</createdBy>
+<createdTime>2023-05-29 01:16:39 UTC</createdTime>
+<generatorID>7FC69384-5CDB-F353-CE2D-22511BE03D9D</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOLO_TRADICIONAL_REGIAO" id="02925263-950F-08DD-0EBE-D24FA6785D79">
+<createdBy>laism</createdBy>
+<createdTime>2023-05-29 01:16:39 UTC</createdTime>
+<generatorID>E8DD298C-B755-AEA8-CF8B-B6EA67EBD1B5</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_CLIMA_TP_CLIMA" id="0D046071-0F7B-2272-BA90-F2002B3B9560">
+<createdBy>laism</createdBy>
+<createdTime>2023-05-29 01:16:39 UTC</createdTime>
+<generatorID>80B4697E-8F5D-83F4-AB6B-A258AB4A4A35</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DAF9BD1C-E0C8-BFA9-AF2A-6797744D8166" referredColumn="107A941C-3942-E591-CECF-67341C9F5EDB"/>
+</associations>
+</Column>
+<Column name="TP_CLIMA" id="3B34FAA6-64B0-128F-DE88-16FB4FC21D88">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 02:04:03 UTC</createdTime>
+<generatorID>04CCAC1B-C295-9FD4-0CC4-C16FA93DCD22</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TB_ESTACOES_ID_ESTAÇÃO" id="B65EBB60-4C9B-A1BA-802C-FB91F24F3F30">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 02:04:03 UTC</createdTime>
+<generatorID>E5AF9355-0F23-D7CE-BE92-D304361200C2</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76E4F61A-C9A7-2C62-604A-8AEA7A662BF5" referredColumn="E92C3755-23D8-15D3-DA60-F3F38C95F896"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD297A7C-8C05-E00A-D61E-91181A58689D" name="TB_REGIAO_PK">
+<createdBy>laism</createdBy>
+<createdTime>2023-05-29 01:16:39 UTC</createdTime>
+<generatorID>BD2A2DA8-3994-C77C-5954-AD3354EAFCF2</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24E12D98-C3A3-81C8-E404-5E2FE5013CE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ACE54636-1EF0-5B5C-92EA-DD5B3DB29451" name="TB_REGIAO__IDX">
+<createdBy>laism</createdBy>
+<createdTime>2023-05-29 01:16:39 UTC</createdTime>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>7721E4E2-6488-9593-3202-5D697F0D524D</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="0D046071-0F7B-2272-BA90-F2002B3B9560"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A25D672-3949-10E3-9BC6-C5C085768280" name="TB_REGIAO__IDX">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 02:04:03 UTC</createdTime>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>72F615BF-443D-349E-9126-313DF4BB963D</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B65EBB60-4C9B-A1BA-802C-FB91F24F3F30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E78F2BF-3E5E-7615-15B3-037F604422F9" name="TB_REGIAO_TB_CLIMA_FK">
+<createdBy>laism</createdBy>
+<createdTime>2023-05-29 01:16:39 UTC</createdTime>
+<generatorID>7721E4E2-6488-9593-3202-5D697F0D524D</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D046071-0F7B-2272-BA90-F2002B3B9560"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F1269712-9B46-5EE4-31F4-DD0194695185" name="TB_REGIAO_TB_ESTACOES_FK">
+<createdBy>laism</createdBy>
+<createdTime>2023-06-02 02:04:03 UTC</createdTime>
+<generatorID>72F615BF-443D-349E-9126-313DF4BB963D</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B65EBB60-4C9B-A1BA-802C-FB91F24F3F30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

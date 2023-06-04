@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B04D434D-40E9-375F-BF3D-AF478F587D67" containerWithKeyObject="5FDC2F75-1D1B-82E5-88CF-15FDD202BA81" localFKIndex="B135C143-BA75-FFDC-B8B0-C0008C10E6AB" name="TB_INFO_PLANTIO_TB_AREA_COLHIDA_FK">
+<createdBy>laism</createdBy>
+<createdTime>2023-05-29 01:16:39 UTC</createdTime>
+<generatorID>9759F19C-841A-71C4-3AAC-7730C318E378</generatorID>
+<ownerDesignName>datamodelerglobalfinal</ownerDesignName>
+<referredTableLongName>TB_COLHEITA_PLANTIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E2CB2D1E-DA36-42B7-FD8D-F00836BBBBA8</referredTableID>
+<keyObject>C193C0D9-E5D9-7B18-F44D-07E1F8D69294</keyObject>
+<referredKeyID>C193C0D9-E5D9-7B18-F44D-07E1F8D69294</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TOTAL_AREA_COL</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
